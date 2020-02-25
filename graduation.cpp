@@ -77,15 +77,15 @@ double func(const vector<int> &all_player, int player, const vector<double> &coo
     return cooperation[sum] - cooperation[(sum & ~(1 << player))];
 }
 
-int kaijou(int n)
-{
-    int sum = 1;
-    for (int i = 1; i <= n; i++)
-    {
-        sum *= i;
-    }
-    return sum;
-}
+// int kaijou(int n)
+// {
+//     int sum = 1;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         sum *= i;
+//     }
+//     return sum;
+// }
 
 int main()
 {
