@@ -90,7 +90,7 @@ int main()
 
     ifstream cparam("real_c.csv");
     ifstream param("real_a.csv");
-    ifstream sparam("real_b^40.csv");
+    ifstream sparam("real_b.csv");
 
 
 
